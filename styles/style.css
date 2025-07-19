@@ -226,6 +226,43 @@
   padding: 10px 25px;
   color: white;
 }
+.footer-container{
+  background-color: rgb(10, 8, 38);
+}
+/* footer styles */
+.footer-tittle{
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 50px 0px 1px 0px;
+}
+.footer-description{
+  padding-top: 10px;
+}
+.social-links{
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px 50px 0px;
+  color: white;
+}
+.social-links .social-link{
+  list-style: none;
+}
+.social-link a{
+  background-color: rgb(35, 34, 61);
+  padding: 10px;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
   .nav-container {
