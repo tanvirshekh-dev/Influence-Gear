@@ -1,15 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* google fonts */
 
 /* Shared styles  */
 /* Manrope fonts  */
 
-.manrope-bold{
-    color: #D9DBE1;
+.manrope-bold {
+  color: #d9dbe1;
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -54,9 +54,103 @@
   font-weight: 700;
   font-style: normal;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.center{
+.center {
+  text-align: center;
+}
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn-primary {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 40px;
+  background-color: #e02c6d;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* navbar section */
+.nav-container {
+  padding: 85px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.nav-items {
+  gap: 34px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+}
+.nav-items .nav-item {
+  list-style: none;
+}
+.nav-icon {
+  align-items: center;
+  gap: 34px;
+}
+/* header area */
+.header-container {
+  margin-bottom: 70px;
+}
+.header-image {
+  background-image: url(../images/Circle\ design.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-title {
+  font-size: 52px;
+  color: #3a3a3a;
+}
+.header-description {
+  color: #3a3a3a;
+  font-size: 16px;
+  width: 500px;
+  padding: 16px 0px;
+}
+.header-content {
+  padding: 100px 0px;
+}
+.header-image {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-title{
+    margin-bottom: 20px;
+  }
+  .header-container{
+    flex-direction: column-reverse;
+  }
+  .header-content{
     text-align: center;
+  }
+  .header-description{
+    width: 450px;
+    margin: 0 auto;
+  }
+  .header-image{
+    padding: 30px;
+  }
 }
